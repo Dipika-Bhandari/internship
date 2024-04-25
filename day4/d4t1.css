@@ -1,0 +1,12 @@
+body{
+color: blueviolet;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fa-facebook{
+    background-color: blue;
+    color: beige;
+}

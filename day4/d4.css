@@ -1,0 +1,47 @@
+.main{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 50px;
+   
+}
+.one{
+    background-color: rgb(236, 227, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.one h1{
+    background-color: blue;
+    color: beige;
+    display: block;
+    padding: 30px;
+}
+.two{
+    background-color: rgb(236, 227, 244);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.two h1{
+    background-color: blue;
+    color: beige;
+    display: block;
+    padding: 30px;
+}
+.three{
+    background-color: rgb(236, 227, 244);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.three h1{
+    background-color: blue;
+    color: beige;
+    display: block;
+    padding: 30px;
+}
