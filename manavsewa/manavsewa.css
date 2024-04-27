@@ -1,0 +1,165 @@
+/* for whole */
+*{
+    margin:0%
+}
+
+.logo {
+    width: 80px;
+}
+
+
+/* sabai bhanda mathi ko lagi */
+.top{
+    background-color: rgb(9, 9, 105);
+    color: beige;
+    display: flex;
+    padding-left: 100px;
+}
+.top h4{
+    margin: 20px;
+}
+.top i{
+    padding-left: 1200px;
+    margin: 20px;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+/* for navigation bar section */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar ul h3{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    color:  rgb(9, 9, 105);
+}
+
+.donation{
+    background-color:  rgb(255, 136, 0);
+    border: none;
+    color: beige;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    border-radius: 7px;
+}
+.fa-heart{
+    padding-right: 15px;
+}
+
+/* for hero section */
+.hero img{
+  width: 1683px;
+}
+
+/* for about section */
+.about{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+.hand img{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.aboutcontent{
+    padding-top: 100px;
+    padding-right: 100px;
+    text-align: justify;
+
+}
+.aboutcontent h3{
+    color:  rgb(255, 136, 0);
+}
+.aboutcontent h1{
+    color:  rgb(9, 9, 105);
+    padding-top: 20px;
+}
+.aboutcontent p{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.vmbtn{
+    background-color:  rgb(255, 136, 0);
+    border: none;
+    color: beige;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    border-radius: 7px;
+    margin-top: 20px; 
+}
+
+/* for footer */
+.main{
+    background-color: rgb(9, 9, 105);
+    color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main ul{
+    list-style-type: none;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.first{
+    padding-left: 100px;
+}
+.first p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.second ul{
+    font-size: 18px;
+}
+
+.last button{
+    background-color: rgb(255, 136, 0);
+    color: beige;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.last button:hover{
+    background-color: beige;
+    color: rgb(255, 136, 0);
+}
+.last p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.fa-facebook{
+    font-size: 25px;
+    background-color: blue;
+    padding: 5px;
+    margin-top: 20px;
+}
+.third i{
+    padding-right: 5px;
+}
+.last{
+    padding-right: 100px;
+}
+
+
+   
