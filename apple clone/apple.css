@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* for nav bar */
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* for hero section */
+.hero {
+display: flex;
+align-items: center;
+align-content: center;
+}
+.herosecton{
+ background-color:  rgb(243, 243, 243);;
+}
+.applelogo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.herocontent h6{
+    font-size: 56px;
+    letter-spacing: 1px;
+    margin-left: 680px;
+}
+.herocontent p{
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-left: 600px;
+    padding-top: 15px;
+ }
+ .herocontent button{
+    background-color: rgb(5, 5, 202);
+    color: beige;
+    font-size: 24px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    margin-left: 740px;
+    margin-top: 15px;
+ }
+ /* iphone 15pro max bala section */
+ .iphone{
+    background-color: rgb(15, 15, 15);
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    color: beige;
+    /* margin-bottom: 100px; */
+ }
+ .icontent h1{
+    font-size: 56px;
+    letter-spacing: 1px;
+    margin-left:500px;
+ }
+ .icontent p{
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-left: 425px;
+    padding-top: 20px;
+ }
+ .btn{
+    background-color: rgb(5, 5, 202);
+    color: beige;
+    font-size: 24px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    margin-left: 500px;
+    margin-top: 30px;
+ }
+ .bbttnn{
+    border: 2px solid rgb(5, 5, 202);
+    /* background-color: rgb(20, 20, 20); */
+    background-color: transparent;
+    color: rgb(5, 5, 202);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-left: 20px;
+ }
+  .bbttnn:hover{
+    background-color: rgb(5, 5, 202);
+    color: beige;
+ }
+
+ .pro img{
+    margin-left:584px;
+    width: 1000px;
+  }
+
+  /* footer section  */
+  .main{
+   background-color:  rgb(243, 243, 243);
+   color: rgba(0, 0, 0, 0.56);
+   margin-top: 10px;
+   padding-top:100px;
+}
+.footer{
+   margin-top: 10px;
+   margin-left: 165px;
+   margin-right: 165px;
+   font-size: 13px;
+   line-height: 15px;
+   
+}
+.footer p{
+   padding-bottom: 10px;
+}
+.footer a{
+   color: rgba(0, 0, 0, 0.72);
+}
+.box{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.box ul{
+   list-style-type: none;
+   /* padding-top: 15px; */
+   padding-bottom: 25px;
+   /* letter-spacing: 0.5px; */
+   line-height: 20px;
+ 
+}
+.box h4{
+   padding-top: 15px;
+   padding-bottom: 8px;
+}
+.box li{
+   padding-bottom: 8px;
+}
+.app{
+   padding-bottom: 15px;
+}
+.app a{
+   color: rgb(47, 47, 204);
+}
+.copywrite{
+   padding-top: 15px;
+   padding-bottom: 1px;
+
+}
