@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIPLUS clone</title>
+
+    <link rel="stylesheet" href="mediplus.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+
+
+    
+</head>
+<body>
+
+    <!-- sabse top ko section -->
+    <div class="top">
+        <div class="topleft">
+            <ul>
+                <li>About</li>
+                <li>Doctors</li>
+                <li>contact</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <div class="topright">
+            <ul>
+                <li class="con">
+                    <i class="fa fa-phone"></i>
+                    <p>+880 1234 56789</p>
+                </li>
+                <li class="con">
+                    <i class="fa fa-envelope"></i>
+                    <p>email@domain.com</p>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <!-- line -->
+    <hr>
+
+    <!--  navigation bar section-->
+
+    <nav class="navigation">
+        <img src="../Mediplus/images/logo.png">
+        
+        <ul>
+            <li>Home</li>
+            <li>Doctors</li>
+            <li>Services</li>
+            <li>Pages <i class="fa-solid fa-chevron-down"></i></i></li>
+            <li>blogs <i class="fa-solid fa-chevron-down"></i></li>
+            <li>contact Us</li>
+        </ul>
+
+        <button>Book Appointment</button>
+    </nav>
+  
+
+
+
+    <!-- hero section -->
+     <!-- Slider main container -->
+    
+     <div class="swiper">
+    
+    <!-- Additional required wrapper -->
+
+    <div class="swiper-wrapper">
+
+      <!-- Slides -->
+
+      <div class="swiper-slide"><img src="../Mediplus/images/slider.jpg"></div>
+      <div class="swiper-slide"><img src="../Mediplus/images/slider2.jpg"></div>
+      <div class="swiper-slide"><img src="../Mediplus/images/slider3.jpg"></div>
+
+
+      <div class="textoverlay">
+        <h1> We Provide <b>Medical</b> Services That You Can <b>Trust !</b> </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ut vitae ullam aspernatur! Id non suscipit, magni quas alias itaque quod</p>
+        <button class="btni">Get Appointment</button>
+        <button class="btnii">contact Now</button>
+    </div>
+      <!-- ... -->
+    </div>
+
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+  
+    <!-- If we need navigation buttons -->
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div>
+  </div> -->
+
+    <div class="box">
+      <p>lorem Amet</p>
+      <h4>Emergency Cases</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quas vero dolore, deserunt quasi.</p>
+      <button>Learn More <i class="fa fa-arrow"></i></button>
+    </div>
+
+
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+});
+</script>
+
+</body>
+</html>

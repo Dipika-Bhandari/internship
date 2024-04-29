@@ -1,0 +1,139 @@
+/* for whole */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif,serif,Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+}
+
+
+/* sabse top ko section */
+
+.topleft ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    gap: 50px;
+}
+.topright ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    gap: 50px;
+}
+.con{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+.con i{
+    color: #1a76d1;
+}
+.top{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 2.5fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* navigation bar section */
+
+.navigation{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 214px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+    top: 0%;
+    position: sticky;
+    z-index:1000px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    gap: 50px;
+}
+.navigation button{
+    background-color: #1a76d1;
+    color: beige;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    border-radius: 5px;
+}
+.navigation i{
+    font-size: 70%;
+}
+
+/*hero section  */
+
+.swiper {
+
+    width: 1600px;
+    height: 830px;
+    position: relative;
+}
+.textoverlay {
+    position: absolute;
+    top: 50%; 
+    right: 50%; 
+    /* z-index: 50%; */
+    background-color: transparent; 
+    color: #202020; 
+    font-size: 24px; 
+    text-align: justify;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+.textoverlay h1 b{
+    color: #1a76d1;
+}
+
+.textoverlay button{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+ .btni{
+    background-color: #1a76d1;
+    color: beige;
+    margin-right: 20px;
+ }
+ .btnii{
+    background-color: #202020;
+    color: beige;
+ }
+ .btnii:hover{
+    background-color: #1a76d1;
+    color: beige;
+ }
+ .textoverlay p{
+    margin-top: 20px;
+ }
+
+ .box{
+    background-color:#1a76d1 ;
+ }
