@@ -44,6 +44,9 @@ body{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.top:hover{
+    color: #1a76d1;
+}
 
 /* navigation bar section */
 
@@ -80,6 +83,10 @@ body{
     font-size: larger;
     border-radius: 5px;
 }
+.navigation button:hover{
+    background-color: #202020;
+    color: beige;
+}
 .navigation i{
     font-size: 70%;
 }
@@ -113,6 +120,9 @@ width: 100%;
    position: fixed;
    padding-left: 100px;
    font-size: 24px;
+}
+.textoverlay p{
+    color: #5c5c5c;
 }
 .textoverlay h1 b{
     color: #1a76d1;
@@ -150,7 +160,6 @@ width: 100%;
     margin-top: 20px;
  }
 
-
  /* 3 ta box bala section */
 
 .box{
@@ -159,7 +168,12 @@ width: 100%;
     padding: 30px;
     border-radius: 10px;
     font-size: larger;
-}.box p{
+}
+.box:hover{
+    box-shadow:#1a76d1 0px 25px 20px -20px;
+    transform: translate(0,-10px);
+}
+.box p{
     margin-top: 20px;
 }
 .box h3{
@@ -173,7 +187,8 @@ width: 100%;
     margin-right: 9%;
     position: absolute;
     z-index: 100;
-    bottom: -15%;
+    /* bottom: -15%; */
+    top: 80%;
 
 }
 
@@ -181,6 +196,89 @@ width: 100%;
 
 .help{
     margin-top: 200px;
-
+    font-size: larger ;
+    text-align: center;
+    
 }
 
+.help h1{
+    font-size: 36px;
+    color: #202020;
+}
+.help img{
+    padding: 20px;
+    width: 100px;
+}
+.help p{
+    font-size: 22px;
+    color: #5c5c5c;
+}
+/* three help box section */
+
+.threehelp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.helpbox{
+    text-align: center;
+    
+}
+.helpbox i{
+  border-color:#736f6f;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 50px;
+  text-align: center;
+  width:150px;
+  height: 100px;
+  padding-top: 10%;
+  color: #1a76d1;
+  border-radius: 50%; 
+  margin-bottom: 20px;
+}
+.helpbox i:hover{
+    background-color: #1a76d1;
+    color: beige;
+}
+.helpbox h3{
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #202020;
+}
+.helpbox p{
+    font-size: 22px;
+    color:#5c5c5c;
+}
+
+.fordots{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap:600px;
+    justify-content: center;
+    color: #1a76d1;
+    font-size: 36px;
+    position: absolute;
+    top: 85%;
+    z-index: 100;
+}
+
+/* subbanner background image bhako bala section */
+
+    
+.subbanner {
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
