@@ -526,6 +526,7 @@ width: 100%;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
+    gap: 70px;
 }
 
 
@@ -845,4 +846,24 @@ width: 100%;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+/* for up scroll */
+
+.arrow {
+    background-color: #0d4c8b;
+    color: beige;
+   display: block; 
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   position: fixed;
+   padding: 20px;
+   border-radius: 5px;
+   font-size: 20px;
+}
+
+
+html{
+    scroll-behavior: smooth;
 }
