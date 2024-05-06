@@ -1,0 +1,35 @@
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.one{
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px;
+}
+.two{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 20px;
+}
+.three{
+    background-color: brown;
+    color: aliceblue;
+    padding: 20px;
+}
+
+/* for responsiveness */
+
+@media screen and (max-width:768px){
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }  
+    }
+    
+    @media screen and (max-width:480px){
+        .main{
+            grid-template-columns: 1fr;
+        }  
+        }
