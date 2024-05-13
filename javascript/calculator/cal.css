@@ -39,7 +39,7 @@
     margin: 20px;
     font-size: 30px;
     cursor: pointer;
-    box-shadow: rgba(17, 148, 111, 0.24) 0px 3px 8px;
+    box-shadow: rgba(19, 196, 48, 0.24) 0px 3px 8px;
     background-color: transparent;
     color: beige;
 }
@@ -55,6 +55,10 @@
     /* font-size: 40px; */
     padding: 20px;
    
+}
+
+form input.operator{
+    color: rgba(0, 255, 42, 0.24);
 }
 
 /* for responsive */
