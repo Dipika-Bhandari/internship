@@ -1,0 +1,34 @@
+*{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+     font-size: 56px;
+     color: white;
+}
+
+.first{
+    text-align: center; 
+    font-size: 30px; 
+    color: grey;
+}
+.sec{
+    text-align: center;
+}
+.sec button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+    border-radius: 10px;
+    color:  black;
+    font-size: 24px;
+    font-style: bold;
+    margin-right: 20px;
+}
+#myimage{
+    width: 320px;
+    margin-left: 650px
+}

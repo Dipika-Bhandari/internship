@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb</title>
+
+    <link rel="stylesheet" href="bulb.css">
+</head>
+<body>
+
+    <h1 >Bulb On And Off</h1>
+
+    <p class="first">Here, a JavaScript changes the value of an image while clicking the on and off button</p>
+
+    <p class="sec">
+        <button  onclick="light(1)">Light On</button>
+        <button  onclick="light(0)">Light Off</button>
+    </p>
+
+    <!-- <img id="myimage" src="/javascript/bulb/images/bulb on.png"> -->
+    <img id="myimage" src="/javascript/bulb/images/bulb off.png">
+
+    <script>
+        function light(sw) {
+            var pic;
+            if (sw==0){
+                pic = "/javascript/bulb/images/bulb off.png"
+            }else{
+                pic = "/javascript/bulb/images/bulb on.png"
+            }
+
+            document.getElementById('myimage').src=pic;
+        }
+
+    </script>
+    
+</body>
+</html>
