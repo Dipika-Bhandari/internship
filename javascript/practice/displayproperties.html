@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Display Properties</title>
+</head>
+<body>
+    
+
+    <h1>Display properties using .innerhtml</h1>
+    <p style="font-size: 24px;" >my practice web page</p>
+    <p style="font-size: 24px;" id="demo"></p>
+
+    <script>
+        document.getElementById('demo').innerHTML= 5+6;
+    </script>
+<hr>
+
+<h1>Display properties Using document.write()</h1>
+<p style="font-size: 24px;">my practice web page</p>
+<p style="font-size: 24px;">Never call document.write after the document has finished loading.
+    It will overwrite the whole document.</p>
+
+<script>
+    document.write(5+6);
+</script>
+
+<hr>
+
+<!-- document.write use garyo bhane paila bhako html content sabai delete garerw result display garcha -->
+<!-- tei implement gareko example -->
+
+<h1>Display properties Using document.write()</h1>
+<p style="font-size: 24px;">my practice web page</p>
+
+<!-- mathi ko sabai content delete garcha  -->
+<button onclick="document.write(5+6)">CLICK ME!</button>
+
+<hr>
+
+<h1>for alert message</h1>
+<p>In JavaScript, the window object is the global scope object. This means that variables, properties, and methods by default belong to the window object. This also means that specifying the window keyword is optional.</p>
+
+<p>i am using both method </p>
+
+<script>
+
+    window.alert(4632);
+    // duita ma j lekheni same kura ho
+    alert(7);
+    
+    alert("my name is dipika");
+</script>
+
+<hr>
+
+<h1>Using window.print to display option</h1>
+
+<p style="font-size: 24px;">Click the button to print the current page.</p>
+<button onclick="window.print()">Print this page</button>
+
+<hr>
+
+
+
+</body>
+</html>

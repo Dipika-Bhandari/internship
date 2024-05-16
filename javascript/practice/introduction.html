@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+</head>
+<body>
+    
+    <h1>My JavaScript Practice</h1>
+    <p id="demo"></p>
+
+    <!-- button ma onclick garda k garni bhanerw euta function ko name dini ra tala script ma gara tyo function call garni -->
+
+    <!-- to display date and time while clicking button  -->
+    <button onclick="fun()">Click me to display date and time</button>
+    <script>
+        function fun() 
+        {
+            document.getElementById("demo").innerHTML = Date()
+        }
+    </script>
+    <br><br>
+
+    <!-- arko tarika le ni garna milcha button bhitrai direct onclick garerw functaion ko name na diyerw -->
+    <button onclick="document.getElementById('demo').innerHTML = Date()">Click me to display date and time</button>
+
+<hr>
+
+    <!-- to change text by clicking on button-->
+
+    <h1>To change content while clicking buton</h1>
+
+    <p id="demmo">JavaScript can change HTML content</p>
+
+    <button onclick="document.getElementById('demmo').innerHTML = 'Hello World!'">Click me!</button>
+
+    <hr>
+
+    <!-- to turn on and off bulb -->
+
+    <h1>Turn ON/OFF Bulb </h1>
+    <p>In this case JavaScript changes the value of the image while clicking on and off button</p>
+
+    <img id="bulb" src="/javascript/practice/images/bulb on.png" width="5%">
+    <br>
+    <button onclick="document.getElementById('bulb').src='/javascript/practice/images/bulb on.png'">Turn On</button>
+    <button  onclick="document.getElementById('bulb').src='/javascript/practice/images/bulb off.png'">Turn Off</button>
+
+    <hr>
+
+    <!-- change font size of text -->
+
+    <h1>To change the font size of a text</h1>
+
+    <p id="font">JavaScript can change the style of an HTML element.</p>
+    <button onclick="document.getElementById('font').style.fontSize='50px'">Click me!</button>
+
+    <hr>
+
+    <!-- hiding content while clicking -->
+
+    <h1>Hide content while clicking button</h1>
+    <p id="hide">In this case JavaScript can hide contnt while clicking the button below </p>
+    <button onclick="document.getElementById('hide').style.display='none'">Click me!</button>
+
+    <hr>
+
+    <!-- show hiddde content -->
+
+    <h1>Show the hidden content</h1>
+    <p id="hidden" style="display: none;">JavaScript can show hidden contents</p>
+
+    <button onclick="document.getElementById('hidden').style.display='block'">Click me!</button>
+
+    <hr>
+
+    
+
+
+
+
+</body>
+</html>

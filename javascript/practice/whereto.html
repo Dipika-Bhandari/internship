@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js practice</title>
+
+    <!--script tag for below -->
+    <script>
+        function fun()
+        {
+            document.getElementById('dum').innerHTML='practicing javascript'
+        }
+    </script>
+</head>
+<body>
+
+    <!-- body ma script tag use garda yesari garni -->
+    <h1>Javascript Practice IN BODY</h1>
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById('demo').innerHTML = 'Hello World'
+    </script>
+
+<hr>
+
+<!--head ma script tag use garda  -->
+
+<h1>Script Tag In Head to change the content</h1>
+<p id="dum">Hi my name is Dipika</p>
+<button onclick="fun()">Click me!</button>
+
+<hr>
+
+<!-- body mai script lekhda -->
+
+<h1>Script Tag In Body to change the content</h1>
+<p id="dumm">Hi my name is Dipika</p>
+<button onclick="funn()">Click me!</button>
+
+<script>
+    function funn()
+    {
+        document.getElementById('dumm').innerHTML = 'Hello World'  
+    }
+</script>
+
+
+
+
+
+
+</body>
+</html>
