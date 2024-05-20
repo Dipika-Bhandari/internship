@@ -12,6 +12,10 @@
     padding: 50px;
     font-size: 24px;
 }
+.fortable thead{
+    text-align: center;
+    text-transform: capitalize;
+}
 .bodytable{
     padding: 10px;
     text-align: center;

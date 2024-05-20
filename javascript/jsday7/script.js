@@ -23,7 +23,7 @@ fetch('https://dummyjson.com/products')
         </tr>`;
     });
 
-    document.querySelector(".bodytable").innerHTML = rows;
+    document.getElementById("bodytable").innerHTML = rows;
 
 })
 .catch(err=>console.log(err))
