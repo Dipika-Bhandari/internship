@@ -1,0 +1,186 @@
+
+{
+    "jewelry": [
+      {
+        "id": "001",
+        "name": "Diamond Ring",
+        "price": 2500.00,
+        "currency": "USD",
+        "description": "18k gold ring with a 1-carat diamond.",
+        "stock": 10,
+        "image_url": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": "002",
+        "name": "Sapphire Necklace",
+        "price": 1500.00,
+        "currency": "USD",
+        "description": "Sterling silver necklace with a 2-carat sapphire.",
+        "stock": 5,
+        "image_url": "https://img.freepik.com/free-photo/vogue-beautiful-woman-posing-black-dress_144627-11645.jpg?t=st=1716285204~exp=1716288804~hmac=a4e29a1b05c45f7400d2ca177cedb52acb92508de9611e8dc06542ccaa44122b&w=826"
+      },
+      {
+        "id": "003",
+        "name": "Emerald Earrings",
+        "price": 1800.00,
+        "currency": "USD",
+        "description": "Platinum earrings with 1.5-carat emeralds.",
+        "stock": 8,
+        "image_url": "https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649125.jpg?t=st=1716284909~exp=1716288509~hmac=55fb6df489702cf76834ab47ccfdff0817fd48e7abf8b866bec3bd56c141a9ad&w=826"
+      },
+      {
+        "id": "004",
+        "name": "Ruby Bracelet",
+        "price": 2000.00,
+        "currency": "USD",
+        "description": "14k gold bracelet with rubies.",
+        "stock": 12,
+        "image_url": "https://img.freepik.com/free-photo/side-view-jewellery-set-golden-bracelet-rind-with-diamonds-rubies-shape-butterfly_140725-12815.jpg?t=st=1716284491~exp=1716288091~hmac=051f79031cc93dd330f664ed19e007dbdd46c84a9af196170e2b7259e739bf99&w=740"
+      },
+      {
+        "id": "005",
+        "name": "Pearl Necklace",
+        "price": 1200.00,
+        "currency": "USD",
+        "description": "Freshwater pearl necklace with silver clasp.",
+        "stock": 20,
+        "image_url": "https://img.freepik.com/free-photo/close-up-details-jewelry-young-attractive-woman-stylish-black-dress-posing-tropical-villa-sexy-elegant-summer-style-fashionable-necklace-accessories_285396-5718.jpg?t=st=1716285099~exp=1716288699~hmac=9e606dc186012fdd4f7772130cacd1d122fa26effbd19ca032bb9f2eb2fc5b55&w=826"
+      },
+      {
+        "id": "006",
+        "name": "Amethyst Ring",
+        "price": 900.00,
+        "currency": "USD",
+        "description": "Sterling silver ring with a 2-carat amethyst.",
+        "stock": 15,
+        "image_url": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": "007",
+        "name": "Opal Earrings",
+        "price": 1100.00,
+        "currency": "USD",
+        "description": "White gold earrings with opals.",
+        "stock": 7,
+        "image_url": "https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649128.jpg?t=st=1716284984~exp=1716288584~hmac=5e764da7ebda6c8d7dc6fe37fbdfc59402f98655c6a9447a195c56be0d60cda4&w=826"
+      },
+      {
+        "id": "008",
+        "name": "Garnet Bracelet",
+        "price": 850.00,
+        "currency": "USD",
+        "description": "Sterling silver bracelet with garnets.",
+        "stock": 9,
+        "image_url": "https://img.freepik.com/free-photo/side-view-jewellery-set-golden-bracelet-rind-with-diamonds-rubies-shape-butterfly_140725-12815.jpg?t=st=1716284491~exp=1716288091~hmac=051f79031cc93dd330f664ed19e007dbdd46c84a9af196170e2b7259e739bf99&w=740"
+      },
+      {
+        "id": "009",
+        "name": "Aquamarine Necklace",
+        "price": 1300.00,
+        "currency": "USD",
+        "description": "White gold necklace with a 3-carat aquamarine.",
+        "stock": 6,
+        "image_url":"https://img.freepik.com/free-photo/vogue-beautiful-woman-posing-black-dress_144627-11645.jpg?t=st=1716285204~exp=1716288804~hmac=a4e29a1b05c45f7400d2ca177cedb52acb92508de9611e8dc06542ccaa44122b&w=826"
+      },
+      {
+        "id": "010",
+        "name": "Topaz Ring",
+        "price": 950.00,
+        "currency": "USD",
+        "description": "Platinum ring with a blue topaz.",
+        "stock": 11,
+        "image_url": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": "011",
+        "name": "Citrine Earrings",
+        "price": 700.00,
+        "currency": "USD",
+        "description": "Gold-plated earrings with citrines.",
+        "stock": 14,
+        "image_url": "https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649125.jpg?t=st=1716284909~exp=1716288509~hmac=55fb6df489702cf76834ab47ccfdff0817fd48e7abf8b866bec3bd56c141a9ad&w=826"
+      },
+      {
+        "id": "012",
+        "name": "Peridot Bracelet",
+        "price": 600.00,
+        "currency": "USD",
+        "description": "Sterling silver bracelet with peridots.",
+        "stock": 13,
+        "image_url": "https://img.freepik.com/free-photo/side-view-jewellery-set-golden-bracelet-rind-with-diamonds-rubies-shape-butterfly_140725-12815.jpg?t=st=1716284491~exp=1716288091~hmac=051f79031cc93dd330f664ed19e007dbdd46c84a9af196170e2b7259e739bf99&w=740"
+      },
+      {
+        "id": "013",
+        "name": "Turquoise Necklace",
+        "price": 800.00,
+        "currency": "USD",
+        "description": "Silver necklace with a turquoise pendant.",
+        "stock": 10,
+        "image_url":"https://img.freepik.com/free-photo/vogue-beautiful-woman-posing-black-dress_144627-11645.jpg?t=st=1716285204~exp=1716288804~hmac=a4e29a1b05c45f7400d2ca177cedb52acb92508de9611e8dc06542ccaa44122b&w=826"
+      },
+      {
+        "id": "014",
+        "name": "Jade Ring",
+        "price": 1400.00,
+        "currency": "USD",
+        "description": "Gold ring with a jade stone.",
+        "stock": 5,
+        "image_url": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": "015",
+        "name": "Coral Earrings",
+        "price": 750.00,
+        "currency": "USD",
+        "description": "Sterling silver earrings with coral.",
+        "stock": 8,
+        "image_url":"https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649128.jpg?t=st=1716284984~exp=1716288584~hmac=5e764da7ebda6c8d7dc6fe37fbdfc59402f98655c6a9447a195c56be0d60cda4&w=826"
+      },
+      {
+        "id": "016",
+        "name": "Onyx Bracelet",
+        "price": 650.00,
+        "currency": "USD",
+        "description": "Black onyx and silver bracelet.",
+        "stock": 7,
+        "image_url": "https://img.freepik.com/free-photo/side-view-jewellery-set-golden-bracelet-rind-with-diamonds-rubies-shape-butterfly_140725-12815.jpg?t=st=1716284491~exp=1716288091~hmac=051f79031cc93dd330f664ed19e007dbdd46c84a9af196170e2b7259e739bf99&w=740"
+      },
+      {
+        "id": "017",
+        "name": "Amber Necklace",
+        "price": 950.00,
+        "currency": "USD",
+        "description": "Gold necklace with amber beads.",
+        "stock": 12,
+        "image_url": "https://img.freepik.com/free-photo/close-up-details-jewelry-young-attractive-woman-stylish-black-dress-posing-tropical-villa-sexy-elegant-summer-style-fashionable-necklace-accessories_285396-5718.jpg?t=st=1716285099~exp=1716288699~hmac=9e606dc186012fdd4f7772130cacd1d122fa26effbd19ca032bb9f2eb2fc5b55&w=826"
+      },
+      {
+        "id": "018",
+        "name": "Moonstone Ring",
+        "price": 1000.00,
+        "currency": "USD",
+        "description": "Platinum ring with a moonstone.",
+        "stock": 9,
+        "image_url": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": "019",
+        "name": "Lapis Lazuli Earrings",
+        "price": 1200.00,
+        "currency": "USD",
+        "description": "Gold earrings with lapis lazuli.",
+        "stock": 6,
+        "image_url": "https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649128.jpg?t=st=1716284984~exp=1716288584~hmac=5e764da7ebda6c8d7dc6fe37fbdfc59402f98655c6a9447a195c56be0d60cda4&w=826"
+      },
+      {
+        "id": "020",
+        "name": "Tourmaline Bracelet",
+        "price": 1150.00,
+        "currency": "USD",
+        "description": "Silver bracelet with multicolored tourmalines.",
+        "stock": 8,
+        "image_url": "https://img.freepik.com/free-photo/side-view-jewellery-set-golden-bracelet-rind-with-diamonds-rubies-shape-butterfly_140725-12815.jpg?t=st=1716284491~exp=1716288091~hmac=051f79031cc93dd330f664ed19e007dbdd46c84a9af196170e2b7259e739bf99&w=740"
+      }
+    ]
+  }
+  

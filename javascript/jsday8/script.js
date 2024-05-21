@@ -13,7 +13,7 @@ newdata.forEach((recipes) => {
     <div class="card-body">
       <h5 class="card-title">${recipes.name}</h5>
       
-      <p class="card-text">${recipes.ingredients}</p><br>
+      <p class="card-text">${recipes.ingredients}</p>
       <p class="card-text">${recipes.caloriesPerServing} cal</p>
     </div>
   </div>` 
